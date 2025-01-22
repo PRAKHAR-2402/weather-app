@@ -32,7 +32,7 @@ async function checkweather(city) {
             weatherIcon.src = "images/rain.png";
         } else if (weatherCondition === "drizzle") {
             weatherIcon.src = "images/drizzle.png";
-        } else if (weatherCondition === "haze") {
+        } else if (weatherCondition === "mist") {
             weatherIcon.src = "images/mist.png";
         } else {
             weatherIcon.src = "images/nothing.png"; // Fallback for unknown conditions
